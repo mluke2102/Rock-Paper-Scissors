@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94BC84C235A104100F58D3C /* BackgroundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94BC84B235A104100F58D3C /* BackgroundCell.swift */; };
 		C95B2B432354CD6400FF9840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B2B422354CD6400FF9840 /* AppDelegate.swift */; };
 		C95B2B452354CD6400FF9840 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B2B442354CD6400FF9840 /* SceneDelegate.swift */; };
 		C95B2B472354CD6400FF9840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95B2B462354CD6400FF9840 /* ViewController.swift */; };
 		C95B2B4A2354CD6400FF9840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95B2B482354CD6400FF9840 /* Main.storyboard */; };
 		C95B2B4C2354CD6800FF9840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95B2B4B2354CD6800FF9840 /* Assets.xcassets */; };
 		C95B2B4F2354CD6800FF9840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95B2B4D2354CD6800FF9840 /* LaunchScreen.storyboard */; };
+		C95F0947235E0ED000B55C77 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95F0946235E0ED000B55C77 /* TestViewController.swift */; };
+		C97FCB662358B974001E3C1B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FCB652358B974001E3C1B /* SettingsViewController.swift */; };
+		C9ABAAE0235579880074A762 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABAADF235579880074A762 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C94BC84B235A104100F58D3C /* BackgroundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCell.swift; sourceTree = "<group>"; };
 		C95B2B3F2354CD6400FF9840 /* Rock Paper Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Paper Scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95B2B422354CD6400FF9840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95B2B442354CD6400FF9840 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,10 @@
 		C95B2B4B2354CD6800FF9840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C95B2B4E2354CD6800FF9840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C95B2B502354CD6800FF9840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95F0946235E0ED000B55C77 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		C97FCB652358B974001E3C1B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C9ABAADF235579880074A762 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		C9ACC3B72375D6BB005D7EE3 /* Rock Paper Scissors.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rock Paper Scissors.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +65,15 @@
 		C95B2B412354CD6400FF9840 /* Rock Paper Scissors */ = {
 			isa = PBXGroup;
 			children = (
+				C9ACC3B72375D6BB005D7EE3 /* Rock Paper Scissors.entitlements */,
+				C97FCB652358B974001E3C1B /* SettingsViewController.swift */,
 				C95B2B422354CD6400FF9840 /* AppDelegate.swift */,
 				C95B2B442354CD6400FF9840 /* SceneDelegate.swift */,
 				C95B2B462354CD6400FF9840 /* ViewController.swift */,
+				C95F0946235E0ED000B55C77 /* TestViewController.swift */,
 				C95B2B482354CD6400FF9840 /* Main.storyboard */,
+				C94BC84B235A104100F58D3C /* BackgroundCell.swift */,
+				C9ABAADF235579880074A762 /* PopUpViewController.swift */,
 				C95B2B4B2354CD6800FF9840 /* Assets.xcassets */,
 				C95B2B4D2354CD6800FF9840 /* LaunchScreen.storyboard */,
 				C95B2B502354CD6800FF9840 /* Info.plist */,
@@ -138,9 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95F0947235E0ED000B55C77 /* TestViewController.swift in Sources */,
 				C95B2B472354CD6400FF9840 /* ViewController.swift in Sources */,
+				C94BC84C235A104100F58D3C /* BackgroundCell.swift in Sources */,
 				C95B2B432354CD6400FF9840 /* AppDelegate.swift in Sources */,
 				C95B2B452354CD6400FF9840 /* SceneDelegate.swift in Sources */,
+				C97FCB662358B974001E3C1B /* SettingsViewController.swift in Sources */,
+				C9ABAAE0235579880074A762 /* PopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,15 +302,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Rock Paper Scissors/Rock Paper Scissors.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = N5BBRS4WQK;
 				INFOPLIST_FILE = "Rock Paper Scissors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MlukeApps.Rock-Paper-Scissors";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,15 +324,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Rock Paper Scissors/Rock Paper Scissors.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = N5BBRS4WQK;
 				INFOPLIST_FILE = "Rock Paper Scissors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MlukeApps.Rock-Paper-Scissors";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
